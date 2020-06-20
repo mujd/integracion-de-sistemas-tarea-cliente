@@ -1,0 +1,19 @@
+/** BOTONES **/
+.btn {
+  transition: all 0.3s ease;
+  outline: none !important;
+  display: flex;
+  align-items: center;
+
+  &.btn-light {
+    background-color: $gray;
+    border: 1px solid $gray;
+    &:hover {
+      background-color: darken($gray, 3%);
+      border: 1px solid darken($gray, 3%);
+    }
+  }
+  .material-icons {
+    margin-right: 5px;
+  }
+}

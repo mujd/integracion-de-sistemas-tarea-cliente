@@ -1,0 +1,9 @@
+export const PERSONS_FORM = 'PERSON_FORM';
+export const GET_PERSONS = 'GET_PERSONS';
+export const ADD_PERSON = 'ADD_PERSON';
+export const UPDATE_PERSON = 'UPDATE_PERSON';
+export const VALIDATE_FORM = 'VALIDATE_FORM';
+export const CURRENT_PERSON = 'CURRENT_PERSON';
+export const DELETE_PERSON = 'DELETE_PERSON';
+export const PERSON_LOADER = 'PERSON_LOADER';
+export const PERSON_NOTLOADER = 'PERSON_NOTLOADER';
